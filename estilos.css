@@ -1,29 +1,47 @@
-header {
+
+.encabezado {
     text-align: center;
-    background-color: #f8f9fa;
+    background-image: url("https://i.pinimg.com/564x/9c/8b/1d/9c8b1dde453ff3cacb8aea5e21485323.jpg");
+    background-repeat: repeat-x;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    width: 100%;
+    z-index: 1000;
+}
+
+.cont{
+    margin-top: 60px;
     padding: 20px;
 }
 
 header h1 {
-    color: #e5add7; 
+    color: #bc0d47;
 }
 
 header h2 {
-    color: #bb94d6; 
+    color: #ffffff;
 }
 
-header h3 {
-    color: #2d193b; 
+dl{
+    margin: 100px;
 }
 
 p {
-    color: #666;
+    color: #4c4a4a;
 }
 
 a {
-    color: #fac4f1;
+    color: #ff7bbf;
 }
 
+.h2 {
+    text-align: center;
+    background-image: url("https://img.freepik.com/foto-gratis/textura-pared-abstracta-rosa_1017-22509.jpg");
+    color: #ffffff;
+}
 
 table {
     width: 100%;
@@ -31,7 +49,8 @@ table {
     margin: 20px 0;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     border: 1px solid #d42525;
     text-align: left;
@@ -39,15 +58,15 @@ th, td {
 
 th {
     background-color: #facde6;
-    color: #fff;
+    color: #d0128d;
 }
 
 dl dt {
-    color: #905196; 
+    color: #905196;
 }
 
 dl dd {
-    color: #fc0595;
+    color: #C75B7A;
 }
 
 input[type="text"],
@@ -58,13 +77,13 @@ textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #dbb2d4; 
+    border: 1px solid #dbb2d4;
     border-radius: 4px;
-    background-color: #f8f9fa; 
+    background-color: #f8f9fa;
 }
 
 button {
-    background-color: #dbb2d4; 
+    background-color: #dbb2d4;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -73,21 +92,40 @@ button {
 }
 
 button:hover {
-    background-color: #dbb2d4; 
+    background-color: #dbb2d4;
 }
-
 
 footer {
-    background-color: #f1f1f1;
+    background-image: url("https://i.pinimg.com/564x/9c/8b/1d/9c8b1dde453ff3cacb8aea5e21485323.jpg");
+    background-repeat: repeat-x;
     padding: 20px;
     text-align: center;
+    color: #ad0858;
 }
 
-footer a {
-    color: #ff008c;
-    text-decoration: none;
-}
-
-footer a:hover {
+.redes {
+    color: #ffffff;
     text-decoration: underline;
+}
+
+/*Sofiaaa*/
+.intro {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+.fondo {
+    background-color: #f9d9f1;
+    text-align: center;
+    
+}
+
+.border {
+    border: 3px solid #d63e7b;
+    border-style: dotted;
+}
+.img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
