@@ -1,0 +1,92 @@
+
+header {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+header h1 {
+    color: #e5add7; 
+}
+
+header h2 {
+    color: #bb94d6; 
+}
+
+header h3 {
+    color: #2d193b; 
+    
+}
+
+p {
+    color: #666;
+}
+
+a {
+    color: #fac4f1;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #d42525;
+    text-align: left;
+}
+
+th {
+    background-color: #facde6;
+    color: #fff;
+}
+
+dl dt {
+    color: #905196; 
+
+dl dd {
+    color: #fc0595;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #81005a;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
